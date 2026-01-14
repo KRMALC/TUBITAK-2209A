@@ -1,0 +1,14 @@
+yolov8en.pt genel pretrained modeldir.
+best.pt kendi egittigim modeldir. Calsitirmak icin asagidaki kodu terminale yapistir.
+UYARI: sanal ortami aktiflestirmeyi unutma.
+**************************************************************************************
+yolo detect predict \
+  model=/home/krm/Desktop/yuztespiti/modeller/best.pt \
+  source=0 \
+  imgsz=640 \
+  conf=0.25 \
+  device=0 \
+  show=True \
+  name=widerface_live
+******************************************************************************************
+  
